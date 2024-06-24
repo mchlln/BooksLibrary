@@ -1,0 +1,21 @@
+/* dark.css */
+.root {
+    -fx-background-color: #070F2B;
+    -fx-text-fill: #FAF0E6;
+}
+
+.text-area, .text-field {
+    -fx-control-inner-background: #1B1A55;
+    -fx-text-fill: #FAF0E6;
+    -fx-prompt-text-fill: #FAF0E6;
+}
+
+.button, .menu-bar, .menu-item, .menu {
+    -fx-background-color: #535C91;
+    -fx-text-fill: #FAF0E6;
+}
+.button:hover, .menu-bar:hover, .menu-bar:hover, .menu-item:hover, .menu:hover,
+.button:pressed, .menu-bar:pressed, .menu-bar:pressed, .menu-item:pressed, .menu:pressed {
+    -fx-background-color: #9290C3;
+    -fx-text-fill: #FAF0E6;
+}

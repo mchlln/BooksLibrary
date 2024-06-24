@@ -1,0 +1,21 @@
+/* light.css */
+.root {
+    -fx-background-color: #F1F8E8;
+    -fx-text-fill: #594545;
+}
+
+.text-area, .text-field {
+    -fx-control-inner-background: #D8EFD3;
+    -fx-text-fill: #594545;
+    -fx-prompt-text-fill: #594545;
+}
+
+.button, .menu-bar, .menu-item, .menu {
+    -fx-background-color: #D8EFD3;
+    -fx-text-fill: #594545;
+}
+.button:hover, .menu-bar:hover, .menu-bar:hover, .menu-item:hover, .menu:hover,
+.button:pressed, .menu-bar:pressed, .menu-bar:pressed, .menu-item:pressed, .menu:pressed {
+    -fx-background-color: #95D2B3;
+    -fx-text-fill: #594545;
+}

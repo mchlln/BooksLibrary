@@ -1,0 +1,21 @@
+/* pastel.css */
+.root {
+    -fx-background-color: #F0EBE3;
+    -fx-text-fill: #333333;
+}
+
+.text-area, .text-field {
+    -fx-control-inner-background: #FFEFEF;
+    -fx-text-fill: #333333;
+    -fx-prompt-text-fill: #333333;
+}
+
+.button, .menu-bar, .menu-item, .menu {
+    -fx-background-color: #F3D0D7;
+    -fx-text-fill: #333333;
+}
+.button:hover, .menu-bar:hover, .menu-bar:hover, .menu-item:hover, .menu:hover,
+.button:pressed, .menu-bar:pressed, .menu-bar:pressed, .menu-item:pressed, .menu:pressed {
+    -fx-background-color: #FB9AD1;
+    -fx-text-fill: #333333;
+}
