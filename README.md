@@ -7,7 +7,7 @@ The application is specific to the schema in the resource folder.
 
 ### Prerequisites
 
-Java Development Kit (JDK) installed.
+Java Development Kit (JDK) installed for Java 21.
 
 ### Dependencies
 
@@ -35,7 +35,7 @@ View Books: Displays all books currently in the database.
 Add Book: Opens a form to add a new book to the database.
 Delete Book: Removes a book from the database.
 Update Book: Allows modification of existing book details.
-Send a Simple Query: Executes predefined queries based on user input.
+Filter By: Executes predefined queries based on user input, filtering with one element.
 Send a Query: Executes custom SQL queries entered by the user.
 Save to File: Exports the database to a specified file.
 Load File: Imports data from an SQL file into the database.
@@ -43,6 +43,7 @@ Style Options: Allows users to switch between different GUI styles (light, dark,
 
 ## Technologies used
 
+Java 21
 JavaFX for building the graphical user interface.
 JDBC (H2) for local database management.
 File handling for exporting and importing database files.

@@ -41,7 +41,7 @@ public class Main extends Application {
         Button viewBooksButton = new Button("Show Books");
         viewBooksButton.setOnAction(event -> viewAllBooks());
 
-        Button simpleQueryButton = new Button("Send a simple query");
+        Button simpleQueryButton = new Button("Filter By");
         simpleQueryButton.setOnAction(e -> sendSimpleQuery(scene));
 
         Button addBookButton = new Button("Add Book");
